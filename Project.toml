@@ -1,0 +1,7 @@
+name = "ExportUtils"
+uuid = "f05fbe7a-e913-40c7-b48b-8529e8cb1884"
+authors = ["Brian Douglas <briandgls92@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
