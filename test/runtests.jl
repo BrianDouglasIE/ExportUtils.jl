@@ -19,8 +19,8 @@ end
     @test isdefined(TestModule, :z)
     @test isdefined(TestModule, :add)
 
-    @test TestModule.x == 10
-    @test TestModule.y == "hello"
-    @test TestModule.z == 3.14
-    @test TestModule.add(2, 2) == 4
+    @test TestModule.x === 10
+    @test TestModule.y === "hello"
+    @test TestModule.z === 3.14
+    @test TestModule.add(2, 2) === 4
 end
