@@ -1,8 +1,8 @@
 module ExportUtils
 
-export @public
+export @export_const
 
-macro public(e)
+macro export_const(e)
     Base.isexpr(e, :(=), 2) || error("Must be used on an assignment form, got $e")
     quote
         export $(e.args[1])

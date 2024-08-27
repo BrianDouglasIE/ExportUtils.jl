@@ -4,11 +4,11 @@ using ExportUtils
 module TestModule
 	using ExportUtils
 
-	@public x = 10
-	@public y = "hello"
-	@public z = 3.14
+	@export_const x = 10
+	@export_const y = "hello"
+	@export_const z = 3.14
 
-	@public add = function (a, b)
+	@export_const add = function (a, b)
 	    return a + b
 	end
 end
